@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-from mp2dlib import convert_landmarks_mediapipe_to_dlib
+from mediapipe2dlib.mp2dlib import convert_landmarks_mediapipe_to_dlib
 
 # Convert Mediapipe dense landmarks to Dlib sparse landmarks
 lmks_mp2dlib = convert_landmarks_mediapipe_to_dlib(lmks_mp)
