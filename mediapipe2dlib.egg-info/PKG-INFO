@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mediapipe2dlib
+Version: 1.0
+Summary: A utility to convert Mediapipe landmarks to Dlib landmarks
+Home-page: https://github.com/PeizhiYan/Mediapipe_2_Dlib_Landmarks
+Author: Peizhi Yan
+Project-URL: Bug Tracker, https://github.com/PeizhiYan/Mediapipe_2_Dlib_Landmarks/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# Mediapipe to Dlib Face Landmarks Conversion
+
+## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Usage
+
+```
+from mediapipe2dlib.mp2dlib import convert_landmarks_mediapipe_to_dlib
+
+# Convert Mediapipe dense landmarks to Dlib sparse landmarks
+lmks_mp2dlib = convert_landmarks_mediapipe_to_dlib(lmks_mp)
+```
+
+## Example
+
+![Alt text](./assets/example.jpeg)

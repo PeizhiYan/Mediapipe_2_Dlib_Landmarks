@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mediapipe2dlib/__init__.py
+mediapipe2dlib/mp2dlib.py
+mediapipe2dlib.egg-info/PKG-INFO
+mediapipe2dlib.egg-info/SOURCES.txt
+mediapipe2dlib.egg-info/dependency_links.txt
+mediapipe2dlib.egg-info/requires.txt
+mediapipe2dlib.egg-info/top_level.txt
