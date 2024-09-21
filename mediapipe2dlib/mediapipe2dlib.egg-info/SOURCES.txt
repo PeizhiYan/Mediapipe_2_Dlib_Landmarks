@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.cfg
-mediapipe2dlib/mediapipe2dlib.egg-info/PKG-INFO
-mediapipe2dlib/mediapipe2dlib.egg-info/SOURCES.txt
-mediapipe2dlib/mediapipe2dlib.egg-info/dependency_links.txt
-mediapipe2dlib/mediapipe2dlib.egg-info/requires.txt
-mediapipe2dlib/mediapipe2dlib.egg-info/top_level.txt
