@@ -2,6 +2,10 @@
 
 ## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+This tool converts Mediapipe's 478 face landmarks into Dlib's 68 face landmarks.
+
+I created this tool because many projects still rely on Dlib's 68 landmarks format, while others use Mediapipe's face detector. To enable code reuse between both sides, this tool provides a practical solution.
+
 ## Install
 ```
 pip install .
